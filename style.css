@@ -10,7 +10,7 @@ h1 {
     color: blue;
 }
 
-section {
+.flexible {
     display: flex;
 }
 
@@ -30,5 +30,28 @@ section {
     font-weight: 700;
     padding: 10px 40px;
     border: radius 5px;
+
+}
+
+.jaan {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    box-shadow: 10px 10px 40px chocolate;
+    border-radius: 10px;
+
+}
+
+#ab {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+#abc {
+    border-left: 7px solid;
+    border-image: linear-gradient(purple, red);
+    border-image-slice: 1;
 
 }
